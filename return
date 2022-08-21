@@ -1,0 +1,176 @@
+[33mcommit adcffaa5a891041f6f933456072b676e08ab3de9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Alan Quiroga <alanquirogaa4@gmail.com>
+Date:   Fri Aug 19 12:27:16 2022 -0300
+
+    arreglando un error de compresion de texto
+
+[1mdiff --git a/00-PrimerosPasos/README.md b/00-PrimerosPasos/README.md[m
+[1mindex ab59d8e..dbf6353 100644[m
+[1m--- a/00-PrimerosPasos/README.md[m
+[1m+++ b/00-PrimerosPasos/README.md[m
+[36m@@ -6,7 +6,7 @@[m
+       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">[m
+         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>[m
+         <br>[m
+[31m-        Buena clase, aprendi cosas que no conocia hasta el momento, espero poder seguir aprendiendo mas sobre este mundo de la programacion[m
+[32m+[m[32m       Hacé click acá para dejar tu feedback sobre esta clase.[m
+       </a>[m
+     </td>[m
+   </tr>[m
+[1mdiff --git a/git status b/git status[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7b69f60[m
+[1m--- /dev/null[m
+[1m+++ b/git status[m	
+[36m@@ -0,0 +1,1159 @@[m
+[32m+[m[32m[33mcommit ce065686583fae394d08b53ff3b6932dc607ed7e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+[32m+[m[32mAuthor: Alan Quiroga <alanquirogaa4@gmail.com>[m
+[32m+[m[32mDate:   Fri Aug 19 12:17:22 2022 -0300[m
+[32m+[m
+[32m+[m[32m    feedback sobre la clase primeros pasos[m
+[32m+[m
+[32m+[m[32m[33mcommit 3af0fbfdb84143cfe9add4e1f5aa6640e0ab9a49[m[m
+[32m+[m[32mAuthor: Alan Quiroga <alanquirogaa4@gmail.com>[m
+[32m+[m[32mDate:   Thu Aug 18 13:42:11 2022 -0300[m
+[32m+[m
+[32m+[m[32m    first commit[m
+[32m+[m
+[32m+[m[32m[33mcommit 681e9300acad7a306ce08d9af75780c558f50ad5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <ignacio_amatt@hotmail.com>[m
+[32m+[m[32mDate:   Thu Aug 18 10:16:45 2022 -0300[m
+[32m+[m
+[32m+[m[32m    git homework added[m
+[32m+[m
+[32m+[m[32m[33mcommit fc6296ece22eb8509c584076c517deaf1d151dff[m[m
+[32m+[m[32mMerge: 40f45a5 2386b1a[m
+[32m+[m[32mAuthor: Ignacio Amatt <83307696+nachovip@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Aug 18 10:13:12 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Merge pull request #47 from franco-ibanez-dev/main[m
+[32m+[m[41m    [m
+[32m+[m[32m    Update README.md[m
+[32m+[m
+[32m+[m[32m[33mcommit 2386b1aa3843333a2cb0ef5246dbde81f8987bc2[m[m
+[32m+[m[32mAuthor: Franco Ezequiel Ibañez <francoeibaez@gmail.com>[m
+[32m+[m[32mDate:   Thu Aug 18 09:16:14 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m[41m    [m
+[32m+[m[32m    Estos son las urls que coinciden con las localizaciones actuales de las respectivas imágenes.[m
+[32m+[m
+[32m+[m[32m[33mcommit 40f45a588e1032d7e284d62450b347481211985a[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <ignacio_amatt@hotmail.com>[m
+[32m+[m[32mDate:   Tue Aug 16 18:33:49 2022 -0300[m
+[32m+[m
+[32m+[m[32m    small fixes[m
+[32m+[m
+[32m+[m[32m[33mcommit 5971e44b304cbbe3b5633e5a793cde303e371831[m[m
+[32m+[m[32mMerge: 39735e2 06130aa[m
+[32m+[m[32mAuthor: Ignacio Amatt <83307696+nachovip@users.noreply.github.com>[m
+[32m+[m[32mDate:   Fri Aug 12 15:53:38 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Merge pull request #42 from soyHenry/feat/robots_&_sitemap_files[m
+[32m+[m[41m    [m
+[32m+[m[32m    Feat/robots & sitemap files[m
+[32m+[m
+[32m+[m[32m[33mcommit 06130aa4fb939190c5b2c74854fa6e854754ad6f[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Fri Aug 12 14:14:40 2022 -0300[m
+[32m+[m
+[32m+[m[32m    feat(app): add sitemap file[m
+[32m+[m
+[32m+[m[32m[33mcommit 8170b02017a9b9816f0eb19931814fb8102aedbc[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Fri Aug 12 14:14:28 2022 -0300[m
+[32m+[m
+[32m+[m[32m    feat(app): add robots file[m
+[32m+[m
+[32m+[m[32m[33mcommit b5ac285c8b6b36c6e7ecbb8dfa7fdd259181100b[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Fri Aug 12 14:12:43 2022 -0300[m
+[32m+[m
+[32m+[m[32m    feat(layouts): add new layout empty[m
+[32m+[m
+[32m+[m[32m[33mcommit 39735e275963a5eed311fcf30c690de02ebfea90[m[m
+[32m+[m[32mMerge: 43735a5 7873ca5[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Wed Jun 29 17:43:30 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Merge pull request #20 from soyHenry/fix/calendar_redirect[m
+[32m+[m[41m    [m
+[32m+[m[32m    feat(prep): add path /Calendario[m
+[32m+[m
+[32m+[m[32m[33mcommit 7873ca54572c2a62ab1c52e9ada81a748bb951d7[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Wed Jun 29 16:43:31 2022 -0300[m
+[32m+[m
+[32m+[m[32m    feat(prep): add path /Calendario[m
+[32m+[m[41m    [m
+[32m+[m[32m    add page Calendario[m
+[32m+[m
+[32m+[m[32m[33mcommit 43735a5d20ff97f94273fff3c4651a481e28eec2[m[m
+[32m+[m[32mMerge: ca1d61a fa114b0[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Jun 23 17:12:04 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Merge pull request #17 from soyHenry/fix/wording_challenge_page[m
+[32m+[m[41m    [m
+[32m+[m[32m    fix(challenge): wording changes[m
+[32m+[m
+[32m+[m[32m[33mcommit fa114b09ded980af8118fca571d00f1c190377c2[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Jun 23 17:08:37 2022 -0300[m
+[32m+[m
+[32m+[m[32m    fix(challenge): wording changes[m
+[32m+[m
+[32m+[m[32m[33mcommit ca1d61ae43d59fb615e2278f77ab00cbbd3a3f19[m[m
+[32m+[m[32mMerge: 20e8b19 c65ccb4[m
+[32m+[m[32mAuthor: Ignacio Amatt <83307696+nachovip@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Jun 23 14:57:38 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Merge pull request #16 from soyHenry/fix/challenge_inscription_url[m
+[32m+[m[41m    [m
+[32m+[m[32m    fix(challenge): change url for Challenge[m
+[32m+[m
+[32m+[m[32m[33mcommit c65ccb49bcafc19437c8cd0cada5fe6a8b5a232a[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Jun 23 13:40:30 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m[41m    [m
+[32m+[m[32m    prettier[m
+[32m+[m
+[32m+[m[32m[33mcommit 4697b6561a5465138edf3d063f8504a97be7ae1c[m[m
+[32m+[m[32mAuthor: Gabriel Pereyra <69526551+pereyrago@users.noreply.github.com>[m
+[32m+[m[32mDate:   Thu Jun 23 13:20:50 2022 -0300[m
+[32m+[m
+[32m+[m[32m    fix(challenge): change url for Challenge[m
+[32m+[m
+[32m+[m[32m[33mcommit 20e8b19c776e29c5419aa1db3f4085cb5a1bc3be[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <83307696+nachovip@users.noreply.github.com>[m
+[32m+[m[32mDate:   Fri Jun 17 17:16:48 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m
+[32m+[m[32m[33mcommit b76728aa0051faaf9cd0c7478e0b11e602619efd[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <ignacio_amatt@hotmail.com>[m
+[32m+[m[32mDate:   Wed Jun 15 09:27:50 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m
+[32m+[m[32m[33mcommit eb0d802798a8e2cdee432500ee91496c6246081d[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <ignacio_amatt@hotmail.com>[m
+[32m+[m[32mDate:   Wed Jun 15 09:19:50 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m
+[32m+[m[32m[33mcommit d6fe6f981d833d3d6f253bdd70632030cd386cf5[m[m
+[32m+[m[32mAuthor: Ignacio Amatt <ignacio_amatt@hotmail.com>[m
+[32m+[m[32mDate:   Wed Jun 15 09:19:14 2022 -0300[m
+[32m+[m
+[32m+[m[32m    Update README.md[m
+[32m+[m
+[32m+[m[32m[33mcommit 0ea1f08aedb22602261df12bf2303eaa814b0759[m[m
+[32m+[m[32mMerge: fa9f4d0 14ace95[m
+[32m+[m[32mAuthor: Matias Lamela <63545306+matiaslamela@users.noreply.github.com>[m
+[32m+[m[32mDate:   Mon May 16
